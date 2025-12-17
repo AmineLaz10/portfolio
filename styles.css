@@ -442,6 +442,21 @@ body::before {
     line-height: 1.6;
 }
 
+.portfolio-item a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: opacity 0.3s ease;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+.portfolio-item a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
 /* Testimonials Section */
 .testimonials-section {
     background-color: var(--light-gray);
