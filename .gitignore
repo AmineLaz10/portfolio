@@ -16,3 +16,6 @@ Thumbs.db
 *.tmp
 *.temp
 
+# Separate repositories (submodules)
+gpt_from_scratch/
+
